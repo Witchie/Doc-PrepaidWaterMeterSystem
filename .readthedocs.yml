@@ -8,7 +8,7 @@ build:
   image: latest
 
 sphinx:
-  configuration: ../docs/conf.py
+  configuration: conf.py
 
 # Possible options: htmlzip, pdf, epub
 # All disabled for now:
