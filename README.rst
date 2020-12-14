@@ -12,7 +12,9 @@
     2.许可证生成工具
 
 如何使用
-.. include::..\src\readme.rst
+----------
+
+.. include:: ..\src\readme.rst
 
 持续构建
 ----------
