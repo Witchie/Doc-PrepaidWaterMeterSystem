@@ -1,4 +1,4 @@
-模板
+内容
 ========
 
 $project will solve your problem of where to start with documentation,
@@ -10,32 +10,28 @@ Look how easy it is to use:
     # Get your stuff done
     project.do_stuff()
 
-特性
+主要特性
 --------
 
-- Be awesome
-- Make things faster
+- 很棒
+- 又快又方便
 
-安装
+如何安装
 ------------
 
-Install $project by running:
+    1.预付费水表管理系统
+    2.许可证生成工具
 
-    install project
-
-构建
+持续构建
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+- 提交问题: https://github.com/Witchie/Doc-PrepaidWaterMeterSystem/issues
+- 源代码: https://github.com/Witchie/Doc-PrepaidWaterMeterSystem
 
 支持
 -------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+有任何问题，请发送邮件到wxf909149916@hotmail.com
 
 许可
 -------
-
-当前项目基于 BSD license.
+当前项目基于 MIT 许可.
