@@ -1,2 +1,3 @@
-.. include:: ../src/index.rst
-.. include:: ../src/readme.rst
+=========
+快速使用
+=========
