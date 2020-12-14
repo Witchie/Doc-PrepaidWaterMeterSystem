@@ -1,7 +1,7 @@
 ========
-Usage
+用法
 ========
 
-To use this template, simply update it::
+要使用该模板，请查看::
 
-	import read-the-docs-template
+	导入 read-the-docs-template

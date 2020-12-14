@@ -1,7 +1,5 @@
-Authors
+作者
 -------
-
-* Eric (New contributor)
-* Anthony 
+王雪飞
 
 
