@@ -9,6 +9,16 @@
 =================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
-   *
+   :caption:客户端教程
+
+   others/dotnetcoreinstall.rst
+
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :caption:密钥工具教程
+
+   others/dotnetcoreinstall.rst
