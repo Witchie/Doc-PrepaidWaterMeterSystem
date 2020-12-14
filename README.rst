@@ -1,15 +1,5 @@
 内容
 ========
-
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
-
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
-
 主要特性
 --------
 
@@ -18,9 +8,11 @@ Look how easy it is to use:
 
 如何安装
 ------------
-
     1.预付费水表管理系统
     2.许可证生成工具
+
+如何使用
+.. include::..\src\readme.rst
 
 持续构建
 ----------
