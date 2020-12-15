@@ -12,6 +12,9 @@
 
 .. figure:: img/keytool1.png
 
+找到**激活码生成工具.exe** 打开，将弹出如下界面
+
+.. figure:: img/keytool2.png
 
 软件配置
 ~~~~~~~~~~~~~~~
