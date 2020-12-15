@@ -15,6 +15,7 @@
 找到**激活码生成工具.exe** 打开，将弹出如下界面
 
 .. figure:: img/keytool2.png
+    - align: center
 
 软件配置
 ~~~~~~~~~~~~~~~
