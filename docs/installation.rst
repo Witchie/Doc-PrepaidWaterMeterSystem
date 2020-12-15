@@ -1,7 +1,9 @@
 ============
-Installation
+安装
 ============
 
-Install the package with pip::
+客户端安装
+-----------
 
-    $ pip install read-the-docs-template
+数据库安装
+------------
