@@ -13,28 +13,9 @@
 .. toctree::
 
    :maxdepth: 2
-   :caption:Description
+   :glob:
    
-
-   /README
-
-
-.. toctree::
-
-   :maxdepth: 2
-   :caption:Client Manual
-   
-
-   /clients/Readme
-
-.. toctree::
-
-   :maxdepth: 2
-   :caption:Tool Manual
-   
-
-   /tools/Readme
-
+   *
 
 
 
