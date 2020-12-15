@@ -10,7 +10,7 @@
 
 解压许可证授权工具后，你将得到如下文件
 
-.. image:: ../static/img/keytool1.png
+.. figure:: img/keytool1.png
 
 +------------------------+------------+----------+----------+
 | Header row, column 1   | Header 2   | Header 3 | Header 4 |
