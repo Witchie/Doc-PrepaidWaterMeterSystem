@@ -1,6 +1,7 @@
-欢迎使用预付费水表管理系统V2
+欢迎使用预付费水表管理系统V2_|version|
 =====================================
-.. image:: imgs/boot.png
+.. figure:: imgs/boot.png
+      :align:center
 
 预付费水表管理系统是使用 .netframework、C#开发的一款的基于T5557卡开发的预付费水表卡表收费系统。系统支持SQLCE和MS SQLServer数据库
 
@@ -10,26 +11,35 @@
 
 
 .. toctree::
+
    :maxdepth: 2
    :caption:Description
    
-   /README.rst
+
+   /README
 
 
 .. toctree::
+
    :maxdepth: 2
    :caption:Client Manual
    
-   /clients/Readme.rst
+
+   /clients/Readme
 
 .. toctree::
+
    :maxdepth: 2
    :caption:Tool Manual
    
-   /tools/Readme.rst
 
-Indices and tables
-==================
+   /tools/Readme
+
+
+
+
+索引页
+-------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
