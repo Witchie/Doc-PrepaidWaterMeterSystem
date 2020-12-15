@@ -1,5 +1,6 @@
-主要内容
-=======
+Template
+========
+
 $project will solve your problem of where to start with documentation,
 by providing a basic explanation of how to do it easily.
 
@@ -9,32 +10,32 @@ Look how easy it is to use:
     # Get your stuff done
     project.do_stuff()
 
-特性
+Features
 --------
 
 - Be awesome
 - Make things faster
 
-安装
+Installation
 ------------
 
 Install $project by running:
 
     install project
 
-持续集成
+Contribute
 ----------
 
 - Issue Tracker: github.com/$project/$project/issues
 - Source Code: github.com/$project/$project
 
-支持
+Support
 -------
 
 If you are having issues, please let us know.
 We have a mailing list located at: project@google-groups.com
 
-许可
+License
 -------
 
 The project is licensed under the BSD license.

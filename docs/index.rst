@@ -1,22 +1,25 @@
-开始
-==========================
+.. Read the Docs Template documentation master file, created by
+   sphinx-quickstart on Tue Aug 26 14:19:49 2014.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-    预付费水表管理系统是使用 .NetFramework、C#开发的一款的基于T5557卡开发的预付费水表卡表收费系统。
-系统支持SQLCE和MS SQLServer数据库
+Welcome to Read the Docs Template's documentation!
+==================================================
 
-目录:
+Contents:
 
 .. toctree::
-      :maxdepth: 2
-      :glob:
+   :maxdepth: 2
+   :glob:
 
-      *
+   *
 
 
 
-索引和表格
+Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+

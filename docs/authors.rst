@@ -1,10 +1,1 @@
-技术支持
--------
-
-安装问题请找
-
->>> 梁凤菊 技术支持  RD49@changdewm.com
-
-错误异常请找
-
->>> 王雪飞 研发  wxf909149916@hotmail.com
+.. include:: ../AUTHORS.rst
