@@ -1,5 +1,5 @@
 ========
-Usage
+使用方法
 ========
 
 To use this template, simply update it::
