@@ -1,7 +1,7 @@
 欢迎使用预付费水表管理系统
 ===============
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :glob:
 
    *
