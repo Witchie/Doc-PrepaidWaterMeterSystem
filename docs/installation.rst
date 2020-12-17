@@ -44,31 +44,7 @@
     * - 关阀时间
       - 阀门关闭的时间
       - 无实际意义
-
-
-..  DANGER::
-    beware killer rabbits
-
-..  note::  this is a note admonitionr
-    This is the second line of the first paragraph
-
-    -   the note contains all indented body elements following
-    -   It includes this bullet list
-
-..  admonition::    And ,by the way ...
-    you can make up you own admonition too
-
-..  topic:: Topic Title
-    Subsequent Indented lines comprise the body of the topic ,and are interpreted as body elements
-
-..  sidebar::   Optional Sidebar Title
-    :subtitle:Option Sidebar SubTitle
-     Subsequent indented lines comprise the body of the sidebar ,and are interpreted as body elements
-
-..  line-block::
-    Lend us a couple of bob till Thursday I'm absolutely skint ,But I'm expecting a postal order and ICan pay you back  as soon as it comes
-    Love,Ewan3
-
+      
 软件配置
 ~~~~~~~~~~~~~~~
 
