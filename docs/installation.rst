@@ -85,18 +85,25 @@
 
     打开数据库工具
 
-    首先选择SqlServer数据库，填写数据库连接字符串，连接->保存->数据库初始化 .. figure:: img/dbtool1.png
+    首先选择SqlServer数据库，填写数据库连接字符串，连接->保存->数据库初始化 
+    
+    .. figure:: img/dbtool1.png
 
-    初始化完成后，选择SqlCe数据库 .. figure:: img/dbtool2.png
+    初始化完成后，选择SqlCe数据库
+    
+    .. figure:: img/dbtool2.png
 
     点击【数据库单机转网络】按钮
 
     填写上步完成初始化的数据库连接字符串，连接并且保存，点击下一步 
-    .. figure:: img/dbtool3.png       
+
+    .. figure:: img/dbtool3.png     
+
     .. figure:: img/dbtool4.png
+
     这里逐表进行数据迁移。先读取再写入
 
-     .. figure:: img/dbtool5.png
+    .. figure:: img/dbtool5.png
 
     第七步无问题操作完成后,将数据库工具的数据库类型改成SQLServer。因为在迁移的时候，我们是以SqlCe来迁移的。
 
