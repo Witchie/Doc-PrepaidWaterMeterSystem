@@ -150,28 +150,28 @@ Access数据库导入到SQl Server
 
     .. figure:: img/SqlServer20127.png
 
-    在目标数据库界面,选择目标数据库类型为 *SQL Server Native Client* 然后将服务器名称、身份验证方式填好
+    * 在目标数据库界面,选择目标数据库类型为 *SQL Server Native Client* 然后将服务器名称、身份验证方式填好
     
     .. note::
         - 远程数据库身份验证方式需要填写用户名和密码，windows身份验证不需要
 
-    单击 *下一步*
+    * 单击 *下一步*
 
     .. figure:: img/SqlServer20128.png
 
-    在指定表复制和插件页面，选择 *复制一个或多个表或视图的数据* ，然后单击 *下一步* 
+    * 在指定表复制和插件页面，选择 *复制一个或多个表或视图的数据* ，然后单击 *下一步* 
 
     .. figure:: img/SqlServer20129.png
 
-    将所有表全部勾选，然后单击 *下一步*
+    * 将所有表全部勾选，然后单击 *下一步*
 
     .. figure:: img/SqlServer201210.png
 
-    在弹出上图界面后单击 *完成*
+    * 在弹出上图界面后单击 *完成*
     
     .. figure:: img/SqlServer201211.png
 
-    单击 *关闭* 完成数据传输操作
+    * 单击 *关闭* 完成数据传输操作
 
 
 
