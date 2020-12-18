@@ -75,7 +75,8 @@
 
 好了下面进入正文
 
-   ** 第一步：下载**
+    **第一步：下载**
+    
         下载地址:https://www.microsoft.com/zh-cn/download/details.aspx?id=29066
 
         .. figure:: img/sql1.png
@@ -91,7 +92,7 @@
         ..  note::
             - 部分浏览器可能存在兼容问题，如遇访问不畅，请尝试更换浏览器
 
-    ** 第二步：安装**   
+    **第二步：安装**   
 
         双击可执行文件SQLFULL_x64_CHS_Install.exe，解压完成后会在当前目录下生成一个新的文件夹
 
