@@ -106,6 +106,76 @@ Access数据库解密步骤
 
     .. figure:: img/dbtool9.png
 
+Access数据库导入到SQl Server
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+..note::
+    - 此操作仅适用于单机版ACCESS数据库,如果是网络版数据库，请直接跳过此操作
+
+**具体步骤**
+
+    * 打开SQL Server Management  Studio，并登录，这里以SQL Server 2012为例
+
+    .. figure:: img/SqlServer20121.png
+
+    * 右键单击当前连接的数据库，并单击 *新建数据库* 
+
+    .. figure:: img/SqlServer20122.png
+
+    * 选中 *常规* 选项卡，并在数据库名称内填入一个临时的数据库名称，这里以TEMP为例单击 *确定* 完成创建
+
+    .. note::
+        - 数据导入完成后请删除该数据库
+    
+    .. figure:: img/SqlServer20123.png
+
+    * 数据库创建完成后，右键单击刚才创建的数据库，任务，然后单击 *导入数据* 
+
+    .. figure:: img/SqlServer20124.png
+
+    * 在弹出的 *SQL Server 导入和导出向导* 界面单击 *下一步*
+
+    .. figure:: img/SqlServer20125.png
+
+    * 将界面切换到选择数据源界面，如下
+
+    .. figure:: img/SqlServer20126.png
+
+    * 在选择源界面，选择数据源类型为 *Microsoft  Access(Microsoft Access Database Engine)* 然后单击 *浏览* 按钮加载之前解密后的Access数据库文件。
+    
+    .. note::
+        - 用户名和密码不填写
+    
+    * 单击 *下一步* 界面将导航至目标数据库界面
+
+    .. figure:: img/SqlServer20127.png
+
+    在目标数据库界面,选择目标数据库类型为 *SQL Server Native Client* 然后将服务器名称、身份验证方式填好
+    
+    .. note::
+        - 远程数据库身份验证方式需要填写用户名和密码，windows身份验证不需要
+
+    单击 *下一步*
+
+    .. figure:: img/SqlServer20128.png
+
+    在指定表复制和插件页面，选择 *复制一个或多个表或视图的数据* ，然后单击 *下一步* 
+
+    .. figure:: img/SqlServer20129.png
+
+    将所有表全部勾选，然后单击 *下一步*
+
+    .. figure:: img/SqlServer201210.png
+
+    在弹出上图界面后单击 *完成*
+    
+    .. figure:: img/SqlServer201211.png
+
+    单击 *关闭* 完成数据传输操作
+
+
+
+
 
 一代网络版升级二代
 ~~~~~~~~~~~~~~~
