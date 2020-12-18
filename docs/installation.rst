@@ -66,6 +66,134 @@
 联网版 SQl Server数据库
 ~~~~~~~~~~~~~~~
 
+这里以SQl Server2012为例来安装数据库引擎。
+
+..  note::
+    - SqlServer 数据库分为 数据库引擎和 SQlServer Management Studio的。数据库引擎商用是需要授权的，而SQlServer Management Studio 是免费的。
+    - SQlServer Management Studio 你可以在如下网址获取.https://docs.microsoft.com/zh-CN/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017,数据库管理工具是独立的个体，任意版本都是可以的。
+    - 关于SqlServer的安装你可以参考本文也可以自行去互联网搜索。由于文档更新可能不及时，您使用的版本可能并非本文所介绍的。
+
+好了下面进入正文
+
+   ** 第一步：下载**
+        下载地址:https://www.microsoft.com/zh-cn/download/details.aspx?id=29066
+
+        .. figure:: img/sql1.png
+
+        紧接着选择你要的数据库引擎
+
+        .. figure:: img/sql2.png
+
+        新建一个文件夹，把下载后的三个安装包放在同一个目录下
+
+        .. figure:: img/sql3.png
+
+        ..  note::
+            - 部分浏览器可能存在兼容问题，如遇访问不畅，请尝试更换浏览器
+
+    ** 第二步：安装**   
+
+        双击可执行文件SQLFULL_x64_CHS_Install.exe，解压完成后会在当前目录下生成一个新的文件夹
+
+        .. figure:: img/sql4.png
+
+        进入文件夹，执行文件SETUP.EXE启动安装
+
+        .. figure:: img/sql5.png
+
+        进入安装导航
+
+        .. figure:: img/sql6.png
+
+        安装 >>> 全新SQL Server安装（特殊需要根据情况自行选择）
+
+        .. figure:: img/sql7.png
+
+        安装程序支持规则 >>> 确定
+
+        .. figure:: img/sql8.png
+
+        选择版本 OR 输入产品秘钥 >>> 确定
+
+        .. figure:: img/sql9.png
+
+        ..  note::
+            - 产品密钥：https://www.cnblogs.com/luckyting/articles/6872374.html
+            - 如上连接无法保证永久可用
+
+        接受条款 >>> 下一步
+
+        .. figure:: img/sql10.png
+
+        ..  note::
+            - 如果点击下一步之后，出现提示无法更新的提示信息，请参考 https://blog.csdn.net/qqj3066574300/article/details/83821100
+        
+        没有无法更新的提示或已经解决问题，继续下一步
+
+        .. figure:: img/sql11.png
+
+        安装SQL Server安装程序，保持网络畅通，耐心等待
+
+        .. figure:: img/sql12.png
+
+        所有状态都显示完成后，下一步
+
+        .. figure:: img/sql13.png
+
+        设置角色 >>> 下一步
+
+        .. figure:: img/sql14.png
+
+        选择功能（不确定就全选） >>> 指定目录（不确定就默认） >>> 下一步
+
+        .. figure:: img/sql15.png
+
+        实例配置：默认实例 >>> 下一步
+
+        .. figure:: img/sql16.png
+
+        下一步，下一步，到数据库引擎配置 **重要** 
+
+        建议混合模式，设置数据库密码，添加当前用户 >>> 下一步
+
+        .. figure:: img/sql17.png
+
+        添加当前用户 >>> 下一步
+        
+        .. figure:: img/sql18.png
+
+        下一步
+
+        .. figure:: img/sql19.png
+
+        添加当前用户 >>> 下一步
+
+        .. figure:: img/sql20.png
+
+        取名 >>> 下一步
+
+        .. figure:: img/sql21.png
+
+        下一步
+
+        .. figure:: img/sql22.png
+
+        全通过 >>> 下一步
+
+        .. figure:: img/sql23.png
+
+        安装
+
+        .. figure:: img/sql24.png
+
+        【完成】 >>> 关闭
+
+        .. figure:: img/sql25.png
+
+
+
+
+
 单机版 SQLCE数据库
 ~~~~~~~~~~~~~~~
 
@@ -81,6 +209,8 @@
 
 数据库迁移
 ------------
+
+由于旧版的系统是使用deplin 开发，目前国内已经很少有人使用，对应的开发人员也很难找，其次旧版系统存在很多弊病，从代码层面已经很难维护，故而对于新接的需求我们都是建议客户升级为二代收费系统的。
 
 一代升级二代
 ~~~~~~~~~~~~~~~
