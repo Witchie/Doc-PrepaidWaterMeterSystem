@@ -59,6 +59,10 @@
 数据库安装
 ------------
 
+由于预付费水表管理系统是基于数据库执行任务存储结果的，所以您在使用时，必须先建议数据库存储来保存你的记录信息
+
+
+
 联网版 SQl Server数据库
 ~~~~~~~~~~~~~~~
 
@@ -67,7 +71,7 @@
 
 单机版数据库不需要安装，启动后数据库会被自动创建。创建位置为
 
-    C:\Users\{用户名}\Documents\MeterSystem\SQLCEDB.sdf
+    C:\\Users\\{用户名}\\Documents\\MeterSystem\\SQLCEDB.sdf
 
 ..  note::
     - 即使你使用的是网络版该文件也有可能出现
@@ -213,7 +217,7 @@ Access数据库导入到SQl Server
 .. figure:: img/SqlServer201214.png
 
 ..  note::
-    - 新卡大小表是大表，就卡小表示小口径的
+    - 新卡大小表是大表，旧卡小表示小口径的
     - 若弹出消息框“用户表下的小区ID在小区ID表中不存在，小区ID：{ID}”，则说明小区表 *TB_RESIDEAREA* 源数据库再用用户表内不存在，请自定根据情况在表 *TD_CONSUMER* 或 *TB_RESIDEAREA* 表内修改数据
     - 若弹出消息框“用户表下的消费类型ID在消费类型表下不存在，ID值{ID}”，则说明用表下第ID行的数据在表 *TB_CONSUMER_TYPE* 中不存在.请自定情况在 *TD_CONSUMER*或 *TB_CONSUMER_TYPE* 表内修改数据
     - 一般*TD_CONSUMER*表出现错误可能性会比较大
