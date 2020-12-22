@@ -74,11 +74,7 @@ Contextual选项卡
 
 报表可分为以下几种可用的控件。
 
-    * `General Content`__
-    * `Extended Data`__
-    * `Report Layout`__
-    * `Document Statistics`__
-    * `Add Controls to a Report`__
+.. contents::
 
 若要了解如何从工具箱向报表添加控件，请参阅将控件添加到报表部分(`Add Controls to a Report`__)
 
